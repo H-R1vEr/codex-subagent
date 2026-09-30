@@ -1,0 +1,6 @@
+interface:
+  display_name: "科研任务路由"
+  short_description: "Evidence-grounded researchflow router"
+  default_prompt: "Use $researchflow-router on my supplied research artifacts and report sources, assumptions, checks and gaps."
+policy:
+  allow_implicit_invocation: true

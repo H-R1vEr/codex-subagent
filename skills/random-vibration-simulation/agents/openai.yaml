@@ -1,0 +1,6 @@
+interface:
+  display_name: "随机振动模拟"
+  short_description: "Evidence-grounded random vibration simulation"
+  default_prompt: "Use $random-vibration-simulation on my supplied research artifacts and report sources, assumptions, checks and gaps."
+policy:
+  allow_implicit_invocation: true

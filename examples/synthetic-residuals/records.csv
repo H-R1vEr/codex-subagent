@@ -1,0 +1,5 @@
+record_id,event_id,station_id,observed_g,predicted_g
+r01,e1,s1,0.2,0.1
+r02,e1,s2,0.1,0.1
+r03,e2,s1,0.05,0.1
+r04,e2,s2,0.15,0.1

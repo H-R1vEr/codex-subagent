@@ -1,0 +1,6 @@
+interface:
+  display_name: "震源—路径—场地分解"
+  short_description: "Evidence-grounded event path site decomposition"
+  default_prompt: "Use $event-path-site-decomposition on my supplied research artifacts and report sources, assumptions, checks and gaps."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,100 @@
+[
+  {
+    "name": "ground-motion-analysis",
+    "layer": "Earthquake",
+    "title": "地震动分析",
+    "description": "Analyze accelerograms, intensity measures, and response spectra with explicit units and processing provenance. Use for seismic waveform analysis, not GMM fitting.",
+    "path": "skills/ground-motion-analysis"
+  },
+  {
+    "name": "gmm-residual-analysis",
+    "layer": "Earthquake",
+    "title": "GMM 残差分析",
+    "description": "Compare observed ground motion with published GMM predictions and diagnose residual patterns. Use for model evaluation, not estimating random effects.",
+    "path": "skills/gmm-residual-analysis"
+  },
+  {
+    "name": "mixed-effects-reml",
+    "layer": "Earthquake",
+    "title": "混合效应 REML",
+    "description": "Fit and diagnose linear mixed models using REML with crossed event and station effects. Use for variance estimation and uncertainty, not choosing fixed effects by REML likelihood.",
+    "path": "skills/mixed-effects-reml"
+  },
+  {
+    "name": "event-path-site-decomposition",
+    "layer": "Earthquake",
+    "title": "震源—路径—场地分解",
+    "description": "Decompose seismic residuals into event, path and site contributions with identifiability checks. Use when physical attribution beyond a residual fit is requested.",
+    "path": "skills/event-path-site-decomposition"
+  },
+  {
+    "name": "random-vibration-simulation",
+    "layer": "Earthquake",
+    "title": "随机振动模拟",
+    "description": "Simulate stochastic earthquake motion or apply random vibration theory with explicit source, path, site and duration assumptions. Use for stochastic simulations, not deterministic rupture solvers.",
+    "path": "skills/random-vibration-simulation"
+  },
+  {
+    "name": "scenario-earthquake",
+    "layer": "Earthquake",
+    "title": "情景地震",
+    "description": "Construct reproducible earthquake scenarios and conditional ground-motion estimates. Use for scenario planning, not probabilistic hazard or earthquake prediction.",
+    "path": "skills/scenario-earthquake"
+  },
+  {
+    "name": "earthquake-rapid-analysis",
+    "layer": "Earthquake",
+    "title": "地震快速研判",
+    "description": "Prepare a source-timestamped rapid earthquake assessment from preliminary event reports and observations. Use after a reported event; do not issue predictions or unverified casualties.",
+    "path": "skills/earthquake-rapid-analysis"
+  },
+  {
+    "name": "evidence-chain",
+    "layer": "Reasoning",
+    "title": "证据链",
+    "description": "Trace manuscript claims to inspectable observations, analyses and sources. Use for claim support audits and evidence planning.",
+    "path": "skills/evidence-chain"
+  },
+  {
+    "name": "figure-audit",
+    "layer": "Reasoning",
+    "title": "图件审计",
+    "description": "Audit scientific figures against source data, uncertainty and manuscript claims. Use for figure correctness and evidence presentation, not cosmetic redesign alone.",
+    "path": "skills/figure-audit"
+  },
+  {
+    "name": "paper-storyline",
+    "layer": "Reasoning",
+    "title": "论文主线",
+    "description": "Build an evidence-grounded manuscript argument and figure sequence from author-provided results. Use for research narrative structure, not journal-specific stylistic imitation.",
+    "path": "skills/paper-storyline"
+  },
+  {
+    "name": "reviewer-audit",
+    "layer": "Reasoning",
+    "title": "审稿视角审计",
+    "description": "Review scientific manuscripts for validity, contribution and actionable major/minor concerns using provided evidence. Use for mock peer review, not submission decisions or author rebuttals.",
+    "path": "skills/reviewer-audit"
+  },
+  {
+    "name": "reproducibility-audit",
+    "layer": "Reasoning",
+    "title": "可复现性审计",
+    "description": "Audit whether scientific outputs can be traced and rerun from inputs, code and environments. Use for provenance, rerun and delivery checks.",
+    "path": "skills/reproducibility-audit"
+  },
+  {
+    "name": "journal-bridge",
+    "layer": "Journal",
+    "title": "期刊技能桥接",
+    "description": "Connect research tasks to separately installed journal skills and current author instructions. Use for Cell, Nature, Science or other journal constraints without bundling third-party text.",
+    "path": "skills/journal-bridge"
+  },
+  {
+    "name": "researchflow-router",
+    "layer": "Router",
+    "title": "科研任务路由",
+    "description": "Route multi-step earthquake research and manuscript tasks to relevant ResearchFlow skills with dependency-aware parallel suggestions. Use for combined workflows, not every single-task request.",
+    "path": "skills/researchflow-router"
+  }
+]

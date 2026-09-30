@@ -1,0 +1,6 @@
+interface:
+  display_name: "地震动分析"
+  short_description: "Evidence-grounded ground motion analysis"
+  default_prompt: "Use $ground-motion-analysis on my supplied research artifacts and report sources, assumptions, checks and gaps."
+policy:
+  allow_implicit_invocation: true

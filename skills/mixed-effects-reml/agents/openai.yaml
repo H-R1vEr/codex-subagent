@@ -1,0 +1,6 @@
+interface:
+  display_name: "混合效应 REML"
+  short_description: "Evidence-grounded mixed effects reml"
+  default_prompt: "Use $mixed-effects-reml on my supplied research artifacts and report sources, assumptions, checks and gaps."
+policy:
+  allow_implicit_invocation: true

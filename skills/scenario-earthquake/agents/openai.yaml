@@ -1,0 +1,6 @@
+interface:
+  display_name: "情景地震"
+  short_description: "Evidence-grounded scenario earthquake"
+  default_prompt: "Use $scenario-earthquake on my supplied research artifacts and report sources, assumptions, checks and gaps."
+policy:
+  allow_implicit_invocation: true

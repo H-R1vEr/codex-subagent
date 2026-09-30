@@ -1,0 +1,6 @@
+interface:
+  display_name: "图件审计"
+  short_description: "Evidence-grounded figure audit"
+  default_prompt: "Use $figure-audit on my supplied research artifacts and report sources, assumptions, checks and gaps."
+policy:
+  allow_implicit_invocation: true

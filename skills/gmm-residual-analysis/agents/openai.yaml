@@ -1,0 +1,6 @@
+interface:
+  display_name: "GMM 残差分析"
+  short_description: "Evidence-grounded gmm residual analysis"
+  default_prompt: "Use $gmm-residual-analysis on my supplied research artifacts and report sources, assumptions, checks and gaps."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "证据链"
+  short_description: "Evidence-grounded evidence chain"
+  default_prompt: "Use $evidence-chain on my supplied research artifacts and report sources, assumptions, checks and gaps."
+policy:
+  allow_implicit_invocation: true

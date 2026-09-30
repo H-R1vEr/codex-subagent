@@ -1,0 +1,6 @@
+interface:
+  display_name: "审稿视角审计"
+  short_description: "Evidence-grounded reviewer audit"
+  default_prompt: "Use $reviewer-audit on my supplied research artifacts and report sources, assumptions, checks and gaps."
+policy:
+  allow_implicit_invocation: true

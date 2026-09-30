@@ -1,0 +1,6 @@
+interface:
+  display_name: "可复现性审计"
+  short_description: "Evidence-grounded reproducibility audit"
+  default_prompt: "Use $reproducibility-audit on my supplied research artifacts and report sources, assumptions, checks and gaps."
+policy:
+  allow_implicit_invocation: true

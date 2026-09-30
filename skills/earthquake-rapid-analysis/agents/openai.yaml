@@ -1,0 +1,6 @@
+interface:
+  display_name: "地震快速研判"
+  short_description: "Evidence-grounded earthquake rapid analysis"
+  default_prompt: "Use $earthquake-rapid-analysis on my supplied research artifacts and report sources, assumptions, checks and gaps."
+policy:
+  allow_implicit_invocation: true

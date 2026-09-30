@@ -1,0 +1,6 @@
+interface:
+  display_name: "期刊技能桥接"
+  short_description: "Evidence-grounded journal bridge"
+  default_prompt: "Use $journal-bridge on my supplied research artifacts and report sources, assumptions, checks and gaps."
+policy:
+  allow_implicit_invocation: true
