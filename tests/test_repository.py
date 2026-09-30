@@ -21,7 +21,9 @@ from build_docs import build
 class InstallerTests(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
-        self.base = Path(self.tmp.name)
+        # macOS /var points to /private/var. Supply the explicit real
+        # temporary path; the separate symlink test still checks refusal.
+        self.base = Path(self.tmp.name).resolve()
         self.dest = self.base / 'skills'
     def tearDown(self):
         self.tmp.cleanup()

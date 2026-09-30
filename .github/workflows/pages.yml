@@ -24,6 +24,9 @@ jobs:
         with:
           path: site
   deploy:
+    # Building docs is safe before Pages is enabled. Deploy after the owner
+    # configures Pages and enables this variable, or explicitly runs it.
+    if: github.event_name == 'workflow_dispatch' || vars.ENABLE_PAGES == 'true'
     needs: build
     runs-on: ubuntu-latest
     permissions:
